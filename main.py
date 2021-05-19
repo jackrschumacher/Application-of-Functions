@@ -4,6 +4,9 @@ def main():
   age = ("What is your age?")
 
 
-def personal_name
+def personal_name(name):
+  print("Welcome,",name)
+
+def 
 
 
