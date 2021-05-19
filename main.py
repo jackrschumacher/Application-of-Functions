@@ -3,6 +3,7 @@ def main():
   name = input("What is your name? ")
   age = int(input("What is your age?"))
 
+  title()
   personal_name(name)
   space()
   name_len(name)
@@ -10,6 +11,7 @@ def main():
   drivers_age(age)
   space()
   lucky_number()
+
   
 def personal_name(name):
   print("Welcome,",name)
@@ -30,5 +32,8 @@ def lucky_number():
 
 def space():
   print("---------------------------")
+
+def title():
+  print("-----Lucky Number, Driving Age, Name Length,Welcome Message-----")
 
 main()
