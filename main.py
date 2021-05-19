@@ -11,8 +11,6 @@ def main():
   space()
   lucky_number()
   
-
-
 def personal_name(name):
   print("Welcome,",name)
 
