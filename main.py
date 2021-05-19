@@ -4,9 +4,13 @@ def main():
   age = int(input("What is your age?"))
 
   personal_name(name)
+  space()
   name_len(name)
+  space()
   drivers_age(age)
+  space()
   lucky_number()
+  
 
 
 def personal_name(name):
@@ -25,5 +29,8 @@ def drivers_age(age):
 def lucky_number():
   number = randrange(1,100,1)
   print("Your Lucky Number is:",number)
+
+def space():
+  print("---------------------------")
 
 main()
