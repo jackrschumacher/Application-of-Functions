@@ -1,12 +1,14 @@
 
 def main():
-  name = ("What is your name? ")
-  age = ("What is your age?")
+  name = input("What is your name? ")
+  age = input("What is your age?")
 
 
 def personal_name(name):
   print("Welcome,",name)
 
-def 
+def name_len(name):
+  len(name)
+  print(name)
 
-
+main()
